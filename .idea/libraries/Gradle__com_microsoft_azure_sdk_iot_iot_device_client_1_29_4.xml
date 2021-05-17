@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.azure.sdk.iot:iot-device-client:1.29.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot/iot-device-client/1.29.4/ffb1e099e17b47ea5726ed97a87e9493461114f8/iot-device-client-1.29.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot/iot-device-client/1.29.4/72785c3a94809fcd3fed35d692f08f50b14c1a8/iot-device-client-1.29.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot/iot-device-client/1.29.4/f28159021dc8ac73d9808677c0e463fe6506d23c/iot-device-client-1.29.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

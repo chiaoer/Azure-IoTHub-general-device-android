@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jnr:jnr-constants:0.9.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.12/cb3bcb39040951bc78a540a019573eaedfc8fb81/jnr-constants-0.9.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.12/4e6cdb41b0631170cd4333807286e837d9e580de/jnr-constants-0.9.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.12/fec5626a750a50e7b83e5ce7ad4b4d5ad5b3d496/jnr-constants-0.9.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

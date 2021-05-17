@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.azure.sdk.iot.provisioning.security:security-provider:1.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot.provisioning.security/security-provider/1.4.0/2191ef9269ef67859977b301606034a905e1909c/security-provider-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot.provisioning.security/security-provider/1.4.0/3dfcf73c1392ebe1f630fc0fdefdfe3aaf6248e8/security-provider-1.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot.provisioning.security/security-provider/1.4.0/f2d0bd5476f66634e88847caac65368c2aa985db/security-provider-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

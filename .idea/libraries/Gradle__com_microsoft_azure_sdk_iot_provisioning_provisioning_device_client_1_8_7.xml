@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.azure.sdk.iot.provisioning:provisioning-device-client:1.8.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot.provisioning/provisioning-device-client/1.8.7/cc9df0579cee9c5b931be736a38d778a08b4512b/provisioning-device-client-1.8.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot.provisioning/provisioning-device-client/1.8.7/431f8a4e5fa730b9329e04accec316a3699df8d3/provisioning-device-client-1.8.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot.provisioning/provisioning-device-client/1.8.7/bcb3cdce15dfd33dc61b817b86e3efc74983aa3b/provisioning-device-client-1.8.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

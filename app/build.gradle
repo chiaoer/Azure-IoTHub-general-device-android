@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId 'com.iothub.azure.microsoft.com.synnexapp'
+        minSdkVersion 25
+        targetSdkVersion 29
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude "META-INF/MSFTSIG.SF"
+        exclude "META-INF/MSFTSIG.RSA"
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'thirdpartynotice.txt'
+    }
+
+    lintOptions {
+        ignore 'InvalidPackage'
+    }
+}
+
+dependencies {
+    api 'com.microsoft.azure.sdk.iot.provisioning:provisioning-device-client:1.8.7'
+
+    // app dependencies
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'org.jetbrains:annotations-java5:20.1.0'
+
+    // testing dependencies
+    testImplementation 'junit:junit:4.13.2'
+
+    // Remote binary dependency
+    api ('com.microsoft.azure.sdk.iot:iot-device-client:1.29.4') {
+        exclude module: 'slf4j-api'
+        exclude module:'azure-storage'
+    }
+    implementation 'org.slf4j:slf4j-android:1.7.30'
+    implementation 'com.microsoft.azure.android:azure-storage-android:2.0.0'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+    implementation 'org.projectlombok:lombok:1.18.10'
+    implementation 'org.glassfish:javax.annotation:10.0-b28'
+}
+
+repositories {
+    mavenCentral()
+}
